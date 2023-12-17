@@ -7,7 +7,7 @@ require('../models/Trip');
 
 
 const dbName = 'sharedtrip';
-const connectionString = `mongodb://localhost:27017/${dbName}`;
+const connectionString = `mongodb://127.0.0.1:27017/${dbName}`;
 
 module.exports = async (app) => {
     try {
